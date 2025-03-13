@@ -26,7 +26,7 @@ services:
       - backend
 
   mongo:
-    image: mongo:latest
+    image: mongo:4
     container_name: todo-mongo
     restart: always
     ports:
